@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Поиск</title>
+</head>
+
+<body>
+    <h2>Настройки поиска авто</h2>
+    <form action=" https://fom.in.ua/echo" method="get" target="_blank">
+        <p>
+            <label for="type_body">Тип кузова:</label>
+            <br>
+            <input type="text" id="type_body" placeholder="Введите тип кузова">
+
+        </p>
+        <p>
+            <label for="car_brand">Марка авто:</label>
+            <br>
+            <input type="text" id="car_brand" placeholder="Введите марку авто">
+
+        </p>
+        <p>
+            <label for="country">Страна производитель:</label>
+            <br>
+            <input type="text" id="country" placeholder="Введите страну производителя">
+
+        </p>
+        <p>
+            <label for="price">Цена:</label>
+            <select>
+                <option>-Цена-</option>
+                <option>$0-$300</option>
+                <option>$500-$1000</option>
+                <option>$1400-$2000</option>
+                <option>$2100-$3000</option>
+                <option>$3000-$4000</option>
+                <option>$4000-$5000</option>
+                <option>$5000-$8000</option>
+
+            </select>
+
+        </p>
+        <p>
+            <label for="year">Год выпуска:</label>
+            <br>
+            <select>
+                <option>от</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select> -
+            <select>
+                <option>до</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select>
+
+        </p>
+        <p>
+            <label for="condition">Состояние:</label>
+            <br>
+            <select name="condition" id="condition" multiple>
+                <option>-Состсояние-</option>
+                <option>не битая</option>
+                <option>в кредите</option>
+                <option>нерастаможенная</option>
+                <option>требует ремонта</option>
+                <option>после ДТП</option>
+                <option>на ходу</option>
+            </select>
+            <br>
+
+
+
+        </p>
+        <p>
+            <label for="fuel">Тип топлива:</label>
+            <br>
+            <select>
+                <option>Бензин</option>
+                <option>Газ</option>
+                <option>Дизель</option>
+                <option>Бензин/Газ</option>
+                <option>Электро</option>
+                <option>Гибрид</option>
+            </select>
+        </p>
+        <p>
+            <label for="transmission">Тип коробки передач:</label>
+            <br>
+            <select name="transmission" id="transmission" multiple>
+                <option>Механическая</option>
+                <option>Автоматическая</option>
+                <option>Вариатор</option>
+                <option>Адаптивная</option>
+                <option>Электро</option>
+                <option>Гибрид</option>
+            </select>
+        </p>
+        <p>
+            <label for="color">Цвет:</label>
+            <br>
+            <select name="color" id="color">
+                <option>Белый</option>
+                <option>Черный</option>
+                <option>Серебристый</option>
+                <option>Красный</option>
+                <option>Желтый</option>
+                <option>Оранжевый</option>
+            </select>
+        </p>
+        <p>
+            <label for="comfortable">Комфорт:</label>
+            <br>
+            <select name="comfortable" id="comfortable" multiple>
+                <option>Кондиционер</option>
+                <option>Люк</option>
+                <option>Датчик света</option>
+                <option>Климат контроль</option>
+                <option>Бортовой комп'ютер</option>
+                <option>Обогрев руля</option>
+            </select>
+        </p>
+
+        <button type="submit">Выбрать</button>
+
+    </form>
+
+</body>
+
+</html>
